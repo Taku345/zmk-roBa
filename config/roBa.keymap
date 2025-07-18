@@ -59,8 +59,8 @@
             bindings = <
 &kp Q           &kp W         &kp E         &kp R          &kp T                                                            &kp Y      &kp U  &lt 5 I                 &kp O                &kp P
 &mt LCTRL A     &kp S         &kp D         &kp F          &kp G        &kp ESC                     &sl 6                   &kp H      &kp J  &lt 5 K                 &kp L                &mt LEFT_CONTROL SEMICOLON
-&kp Z           &kp X         &kp C         &kp V          &kp B        &mkp MB1                    &sl 2                   &kp N      &kp M  &mt LEFT_COMMAND COMMA  &mt LEFT_ALT PERIOD  &mt LEFT_SHIFT SLASH
-&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &kp BACKSPACE  &lt 3 SPACE  &lt_to_layer_0 1 LANG2      &lt_to_layer_0 1 LANG1  &kp ENTER                                                      &mt LEFT_SHIFT DELETE
+&kp Z           &kp X         &kp C         &kp V          &kp B        &mkp MB1                    &mkp RCLK               &kp N      &kp M  &mt LEFT_COMMAND COMMA  &mt LEFT_ALT PERIOD  &mt LEFT_SHIFT SLASH
+&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &kp BACKSPACE  &lt 3 SPACE  &lt_to_layer_0 1 LANG2      &lt_to_layer_0 2 LANG1  &kp ENTER                                                      &mt LEFT_SHIFT DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
